@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+html {
+  font-family: "Neue Haas Grotesk Text", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+}

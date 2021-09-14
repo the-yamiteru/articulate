@@ -1,0 +1,34 @@
+{
+  "name": "articulate",
+  "version": "1.0.0",
+  "description": "Simple, minimalist and modular static blog starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only example/index.ts",
+    "start": "serve example/.build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-yamiteru/articulate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-yamiteru/articulate/issues"
+  },
+  "homepage": "https://github.com/the-yamiteru/articulate#readme",
+  "devDependencies": {
+    "@types/html-minifier-terser": "^6.0.0",
+    "@types/node": "^16.9.1",
+    "@types/prismjs": "^1.16.6",
+    "@types/remarkable": "^2.0.3",
+    "gray-matter": "^4.0.3",
+    "html-minifier-terser": "^6.0.2",
+    "prettier": "^2.4.0",
+    "prismjs": "^1.24.1",
+    "remarkable": "^2.0.1",
+    "serve": "^12.0.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}

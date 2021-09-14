@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "stripInternal": true,
+    "noEmit": true,
+    "module": "commonjs",
+    "target": "ESNext",
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "example/**/*.ts",
+    "@types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
